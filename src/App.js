@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Prueba from './components/Prueba';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Muestra el compontente Prueba y le asigna los valores por probs para a que sea 10 y b 20 */}
+      <Prueba a={50} b={20}></Prueba>
     </div>
   );
 }
