@@ -43,6 +43,7 @@ function Prueba(props){
             condicion ? muestra si es verdadero : muestra si es falso */}
             {contador === 5 ? <h1>Contador en 5</h1> : <h1>El contador no es 5</h1>} 
             <h1>Nuevo titulo</h1>
+            Cambios hechos en la nueva rama
         </div>
     )
 }
