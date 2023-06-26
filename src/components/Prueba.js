@@ -29,6 +29,7 @@ function Prueba(props){
     useEffect(() => {
         document.title = 'Titulo al iniciar'
     }, [])  
+    
     return(
         <div>
             <h1>Prueba</h1>
@@ -41,6 +42,7 @@ function Prueba(props){
             {/* Operador ternario 
             condicion ? muestra si es verdadero : muestra si es falso */}
             {contador === 5 ? <h1>Contador en 5</h1> : <h1>El contador no es 5</h1>} 
+            <h1>Nuevo titulo</h1>
         </div>
     )
 }
